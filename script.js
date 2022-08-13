@@ -15,13 +15,13 @@ function change() {
 }
 function openwindowform() {
     remove("options")
-    window.open("https://Minecraft-2.kirigizakazutov.repl.co", "", "width=10000,height=10000");
+    window.open("/", "", "width=10000,height=10000");
 }
 function closeoptions() {
   remove("options")
 }
 function quit() {
-  alert("Đóng tab/thay đổi địa chỉ trên thanh address/chuyển tab khác để thoát game")
+  alert("Nhấn Alt + Home đi bro :D")
 }
 function how() {
   addhtml("<div id='stophow' style='color: red; position:absolute; left:0; bottom:0; font-weight: bold; font-size: 60px;z-index: 2;cursor: pointer;' onclick='stophow();'>x</div><div style='position:fixed; top:0; left:0; text-align:center; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:1; color:white; background-color:black; font-size:125%;' id='instructions'>Use WASD to move around, T to talk, 1 to 9 to change blocks, B to get new blocks, mouse to look around, R to respawn, ESC to pause and G to teleport a random player into your world. To go back to the starting screen when you are in-game press ESC and CLICK THE RED X IN THE CORNER OF THE SCREEN TO CLOSE IN THE REAL GAME THE RED X IS ON THE TOP RIGHT</div>")
