@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>linuxv64_minecraftclassic - RebootDiscord Simulator</title>
+	<title>Minecraft Classic (QEMU_Apache_Java)</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="minecraft.css" />
@@ -16,12 +16,12 @@
 		</script>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<img alt="Minecraft" id="logo" src="minecraft.svg"/>
-<div id="flashingtext">discord.gg/nGD5cYCW7N</div>
+<div id="flashingtext">adu ;)</div>
 <main>
-<button class="button" onclick="play()">Chơi một mình</button>
+<button class="button" onclick="play()">Chơi 1 người</button>
 <br>
-<button class="button" onclick="playmulti()" id="playmulti">Chơi với nhiều người</button> <br>
-<button class="button" onclick="alert('Phiên bản Minecraft Classic (classic.minecraft.)')">Nguồn Minecraft</button>
+<button class="button" onclick="playmulti()" id="playmulti">Chơi nhiều người</button> <br>
+<button class="button" onclick="alert('Dựa trên Apache Guacamole trên Java và Minecraft Classic')"></button>
 <button class="button" onclick="how()">Cách chơi</button>
 <audio id="audio">
   <source src="minecraft.mp4">
@@ -33,15 +33,15 @@
 <script>
 function updateidea() {
   if (!("Notification" in window)) {
-    alert("This browser does not support desktop notification");
+    alert("Chúng tôi cần bạn bật thông báo để chúng tôi có thể cập nhật thông tin mới nhất!");
   }
   else if (Notification.permission === "granted") {
-    var notification = new Notification("updates? https://repl.it/talk/share/Minecraft/16676 I am duck1321912");
+    var notification = new Notification("Ủng hộ qua Patreon cho chúng tôi đi!!!http://patreon.com/thasnolm");
   }
   else if (Notification.permission !== "denied") {
     Notification.requestPermission().then(function (permission) {
       if (permission === "granted") {
-        var notification = new Notification("updates? https://repl.it/talk/share/Minecraft/16676");
+        var notification = new Notification("Muốn giúp đỡ?Truy cập https://patreon.com/thasnolm");
       }
     });
   }
@@ -67,14 +67,5 @@ button.addEventListener("click", function(){
 });
 </script>
 </main>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144036419-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-144036419-1');
-</script>
 </body>
 </html>
