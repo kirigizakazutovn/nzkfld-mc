@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Minecraft Classic (QEMU_Apache_Java)</title>
+	<title>H1VM (Ubuntu_18.04.x64)</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="minecraft.css" />
@@ -36,12 +36,12 @@ function updateidea() {
     alert("Chúng tôi cần bạn bật thông báo để chúng tôi có thể cập nhật thông tin mới nhất!");
   }
   else if (Notification.permission === "granted") {
-    var notification = new Notification("Ủng hộ qua Patreon cho chúng tôi đi!!!http://patreon.com/thasnolm");
+    var notification = new Notification("Hê lô bạn,check qua Patreon giúp mình đi! http://patreon.com/thasnolm");
   }
   else if (Notification.permission !== "denied") {
     Notification.requestPermission().then(function (permission) {
       if (permission === "granted") {
-        var notification = new Notification("Muốn giúp đỡ?Truy cập https://patreon.com/thasnolm");
+        var notification = new Notification("Muốn giúp đỡ? Truy cập https://patreon.com/thasnolm");
       }
     });
   }
