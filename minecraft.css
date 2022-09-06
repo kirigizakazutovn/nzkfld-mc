@@ -7,7 +7,7 @@ html {
 	overflow: hidden;
 }
 body {
-	background: #303030 url("minecraft.jpg") repeat-x 0 0;
+	background: #303030 url("https://images6.alphacoders.com/108/thumb-1920-1082090.jpg") repeat-x 0 0;
 	background-size: cover;
 	animation: MinecraftBackground 165s linear infinite;
 	text-align: center;
